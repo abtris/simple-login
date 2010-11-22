@@ -1,0 +1,19 @@
+* { padding: 0; margin:0; }
+body { font-family: Georgia, serif;  background: url(../images/login-page-bg.jpg) top center no-repeat #c4c4c4; color: #3a3a3a;  }
+.clear { clear:both; }
+form { width: 406px; margin: 170px auto 0; }
+#hash { display: none; }
+fieldset { border: 0; }
+label {  width: 115px; text-align: right; float: left; margin: 0 10px 0 0; padding: 9px 0 0 0; font-size: 16px; }
+input {  width: 220px; display: block; padding: 4px; margin: 0 0 10px 0; font-size: 18px; color: #3a3a3a; font-family: Georgia, serif;}
+
+#submitbutton                         {  border: 1px solid #999; margin-left:180px;
+                                            -moz-border-radius: 8px; padding: 5px; color: black; font-weight: bold;
+                                            -webkit-border-radius: 8px; font-size: 15px;  width: 80px; }
+#submitbutton:hover           { background: #eee; color: gray; }
+
+.flash { text-align:center; padding: 4px; margin: 0 0 10px 0; font-size: 18px; color: red; font-family: Georgia, serif;
+         position: relative;
+         bottom: 75px;
+         left: 10px;
+    }
